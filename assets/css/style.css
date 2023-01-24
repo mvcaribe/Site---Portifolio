@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font: '400' '1rem';
+
+}
+:root {
+    --color-1:#FFF;
+    --color-2:#252323;
+    --color-3:#1C5BFF;
+}
+
+h1 {
+    color: var(--color-3);
+}

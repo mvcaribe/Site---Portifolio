@@ -15,8 +15,6 @@
 }
 header {
     background-color: var(--color-3);
-    height: 100vh;
-    width: 100vw;
     position: absolute;
 }
 a {
@@ -44,5 +42,25 @@ header nav ul {
 }
 
 header nav li {
-    margin: 0 4.8rem;
+    margin-right: 4.8rem;
+}
+.icons {
+    margin-left: 1.6rem;
+}
+.about {
+    margin: 12.1rem 12rem 21.4rem;
+}
+.about h2, p {
+    color: var(--color-1);
+    margin-bottom: 2.4rem;
+}
+.about h2 {
+    font-weight: 700;
+    font-size: 6.4rem;
+}
+.about button {
+    padding: 1.5rem 4.8rem;
+    border: none;
+    border-radius: 8rem;
+    cursor: pointer;
 }

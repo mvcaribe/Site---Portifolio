@@ -10,12 +10,12 @@
     --color-1:#FFF;
     --color-2:#252323;
     --color-3:#1C5BFF;
+    --color-4: #0045f9;
 
     font-size: 62.5%; /* 1rem = 10px */
 }
 header {
     background-color: var(--color-3);
-    position: absolute;
 }
 a {
     text-decoration: none;
@@ -25,7 +25,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 4.8rem 12rem;
+    padding: 4.8rem 12rem;
 }
 nav h1 {
     font-size: 3.6rem;
@@ -48,9 +48,9 @@ header nav li {
     margin-left: 1.6rem;
 }
 .about {
-    margin: 12.1rem 12rem 21.4rem;
+    padding: 12.1rem 12rem 21.4rem;
 }
-.about h2, p {
+.about h2, .about p {
     color: var(--color-1);
     margin-bottom: 2.4rem;
 }
@@ -63,4 +63,31 @@ header nav li {
     border: none;
     border-radius: 8rem;
     cursor: pointer;
+}
+.clients {
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--color-4);
+}
+.client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6.4rem;
+}
+.client h2 {
+    margin-bottom: 2.4rem;
+    color: var(--color-1);
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.client p {
+    color: var(--color-1);
+}
+.client--logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4.8rem 32rem 6.4rem 32rem;
 }

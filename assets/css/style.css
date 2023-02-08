@@ -14,18 +14,23 @@
 
     font-size: 62.5%; /* 1rem = 10px */
 }
-header {
+header, footer {
     background-color: var(--color-3);
 }
 a {
     text-decoration: none;
     color: var(--color-1);
 }
-nav {
+header nav {
+    padding: 4.8rem 12rem 0rem;
+}
+footer nav {
+    padding: 6.4rem 12rem;
+}
+header nav, footer nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4.8rem 12rem 0rem;
 }
 nav h1 {
     font-size: 3.6rem;
@@ -36,12 +41,12 @@ nav h1 {
     display: flex;
     align-items: center;
 }
-header nav ul {
+header nav ul, footer nav ul {
     list-style: none;
     display: flex;
 }
 
-header nav li {
+header nav li, footer nav li {
     margin-right: 4.8rem;
 }
 .icons {
